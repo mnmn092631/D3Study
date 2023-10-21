@@ -4,7 +4,9 @@ import { Link } from "react-router-dom";
 const Home = () => {
 	return (
 		<div>
-			<Link to="/face">face</Link>
+			<Link to="/faces">Faces - arc, range</Link>
+			<br />
+			<Link to="/csvdata">CSVData - csvParse, csv, csvFormat</Link>
 		</div>
 	);
 };
