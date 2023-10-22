@@ -10,6 +10,7 @@ export const AxisLeft = ({ yScale }: { yScale: ScaleBand<string> }) => {
 					x={-3}
 					y={yScale(domainValue)! + yScale.bandwidth() / 2}
 					style={{ textAnchor: "end" }}
+					fill="#635F5D"
 				>
 					{domainValue}
 				</text>

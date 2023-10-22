@@ -9,7 +9,8 @@ const Home = () => {
 			<Link to="/csvdata">CSVData - csvParse, csv, csvFormat, pie</Link>
 			<br />
 			<Link to="barchart">
-				BarChart - max, scaleBand, scaleLinear, ticks, domain
+				BarChart - max, scaleBand, scaleLinear, ticks, domain, innerPadding,
+				format
 			</Link>
 		</div>
 	);
