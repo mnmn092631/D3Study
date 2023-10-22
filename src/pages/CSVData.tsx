@@ -2,18 +2,13 @@ import { useEffect, useState } from "react";
 import { DSVRowArray, arc, csv, pie } from "d3";
 import { message } from "components/CSVData/message";
 
-const width = 960;
-const height = 500;
-const centerX = width / 2;
-const centerY = height / 2;
-
 const csvUrl =
 	"https://gist.githubusercontent.com/curran/b236990081a24761f7000567094914e0/raw/cssNamedColors.csv";
 
-const pieArc = arc().innerRadius(0).outerRadius(width);
-
-const CSVData = () => {
+const CSVData = ({ width, height }: { [key: string]: number }) => {
 	const [data, setData] = useState<DSVRowArray<string> | null>(null);
+	const centerX = width / 2;
+	const centerY = height / 2;
 
 	useEffect(() => {
 		// With d3.csv
@@ -35,6 +30,7 @@ const CSVData = () => {
 	//  console.log(message);
 	// });
 
+	const pieArc = arc().innerRadius(0).outerRadius(width);
 	const colorPie = pie().value(1);
 
 	if (!data) return <p>Loading...</p>;

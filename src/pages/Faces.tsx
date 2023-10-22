@@ -1,4 +1,4 @@
-import { Face } from "components/faces/Face";
+import { Face } from "components/Faces/Face";
 import { range } from "d3";
 
 const Faces = () => {

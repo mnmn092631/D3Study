@@ -7,6 +7,10 @@ const Home = () => {
 			<Link to="/faces">Faces - arc, range</Link>
 			<br />
 			<Link to="/csvdata">CSVData - csvParse, csv, csvFormat, pie</Link>
+			<br />
+			<Link to="barchart">
+				BarChart - max, scaleBand, scaleLinear, ticks, domain
+			</Link>
 		</div>
 	);
 };

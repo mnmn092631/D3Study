@@ -1,7 +1,7 @@
-import { BackgroundCircle } from "components/faces/BackgroundCircle";
-import { Eyes } from "components/faces/Eyes";
-import { FaceContainer } from "components/faces/FaceContainer";
-import { Mouth } from "components/faces/Mouth";
+import { BackgroundCircle } from "components/Faces/BackgroundCircle";
+import { Eyes } from "components/Faces/Eyes";
+import { FaceContainer } from "components/Faces/FaceContainer";
+import { Mouth } from "components/Faces/Mouth";
 
 export const Face = ({
 	width,
