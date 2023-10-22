@@ -6,7 +6,7 @@ const Home = () => {
 		<div>
 			<Link to="/faces">Faces - arc, range</Link>
 			<br />
-			<Link to="/csvdata">CSVData - csvParse, csv, csvFormat</Link>
+			<Link to="/csvdata">CSVData - csvParse, csv, csvFormat, pie</Link>
 		</div>
 	);
 };
