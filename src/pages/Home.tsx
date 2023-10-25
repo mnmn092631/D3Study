@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -8,10 +7,12 @@ const Home = () => {
 			<br />
 			<Link to="/csvdata">CSVData - csvParse, csv, csvFormat, pie</Link>
 			<br />
-			<Link to="barchart">
+			<Link to="/barchart">
 				BarChart - max, scaleBand, scaleLinear, ticks, domain, innerPadding,
 				format
 			</Link>
+			<br />
+			<Link to="/scatterplot">Scatter Plot - extent, nice</Link>
 		</div>
 	);
 };
