@@ -13,6 +13,11 @@ const Home = () => {
 			</Link>
 			<br />
 			<Link to="/scatterplot">Scatter Plot - extent, nice</Link>
+			<br />
+			<Link to="linechart">
+				Line Chart - scaleTime, timeFormat, line, strokeLinejoin, curve,
+				strokeLinecap
+			</Link>
 		</div>
 	);
 };
