@@ -5,6 +5,7 @@ import CSVData from "pages/CSVData";
 import BarChart from "pages/BarChart";
 import ScatterPlot from "pages/ScatterPlot";
 import LineChart from "pages/LineChart";
+import Map from "pages/Map";
 
 function App() {
 	return (
@@ -21,6 +22,7 @@ function App() {
 				path="/linechart"
 				element={<LineChart width={960} height={500} />}
 			/>
+			<Route path="/map" element={<Map width={960} height={500} />} />
 		</Routes>
 	);
 }

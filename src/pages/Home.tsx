@@ -14,9 +14,14 @@ const Home = () => {
 			<br />
 			<Link to="/scatterplot">Scatter Plot - extent, nice</Link>
 			<br />
-			<Link to="linechart">
+			<Link to="/linechart">
 				Line Chart - scaleTime, timeFormat, line, strokeLinejoin, curve,
 				strokeLinecap
+			</Link>
+			<br />
+			<Link to="/map">
+				Map - json, topojson-client, geoEqualEarth, geoPath, mesh,
+				geoNaturalEarth1, geoGraticule
 			</Link>
 		</div>
 	);
