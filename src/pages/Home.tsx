@@ -25,6 +25,8 @@ const Home = () => {
 			</Link>
 			<br />
 			<Link to="/menus">Scatter Plot with Menus - scaleOrdinal</Link>
+			<br />
+			<Link to="/points">Points on a Map - projection, scaleSqrt</Link>
 		</div>
 	);
 };
