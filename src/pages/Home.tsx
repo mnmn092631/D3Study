@@ -23,6 +23,8 @@ const Home = () => {
 				Map - json, topojson-client, geoEqualEarth, geoPath, mesh,
 				geoNaturalEarth1, geoGraticule
 			</Link>
+			<br />
+			<Link to="/menus">Scatter Plot with Menus - scaleOrdinal</Link>
 		</div>
 	);
 };

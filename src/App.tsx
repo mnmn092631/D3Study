@@ -6,6 +6,7 @@ import BarChart from "pages/BarChart";
 import ScatterPlot from "pages/ScatterPlot";
 import LineChart from "pages/LineChart";
 import Map from "pages/Map";
+import Menus from "pages/Menus";
 
 function App() {
 	return (
@@ -23,6 +24,7 @@ function App() {
 				element={<LineChart width={960} height={500} />}
 			/>
 			<Route path="/map" element={<Map width={960} height={500} />} />
+			<Route path="/menus" element={<Menus width={960} height={500} />} />
 		</Routes>
 	);
 }
