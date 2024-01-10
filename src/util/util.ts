@@ -1,5 +1,5 @@
 import { scalePoint, scaleLinear, min, max, bisector, ScalePoint, ScaleLinear } from "d3";
-import { Series } from "type/type";
+import { Series } from "type/utilMultiLineChart";
 
 interface GetLinearScaleParam {
 	series: Series[] | number[] | undefined;
