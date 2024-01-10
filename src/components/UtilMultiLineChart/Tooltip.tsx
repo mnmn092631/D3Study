@@ -1,7 +1,7 @@
-import { Series, SelectedItem, SelectionOptions } from "type/type";
+import { Series, SelectedItem, SelectionOptions } from "type/utilMultiLineChart";
 import { format } from "d3";
 import { D3_DEFAULT_COLORS } from ".";
-import * as S from "style/style";
+import * as S from "style/utilMultiLineChart.style";
 
 type TooltipProps = SelectionOptions["tooltip"] & {
 	selected: (SelectedItem | null)[] | null;

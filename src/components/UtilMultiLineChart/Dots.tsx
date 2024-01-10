@@ -1,5 +1,5 @@
 import { ScaleLinear, ScalePoint } from "d3";
-import { SelectedItem, SelectionOptions } from "type/type";
+import { SelectedItem, SelectionOptions } from "type/utilMultiLineChart";
 
 type DotsProps = SelectionOptions["dot"] & {
 	selected: (SelectedItem | null)[] | null;

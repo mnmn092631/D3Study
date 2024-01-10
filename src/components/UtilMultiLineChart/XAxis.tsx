@@ -1,5 +1,5 @@
 import { ScaleLinear, ScalePoint, format } from "d3";
-import { XAxisOptions } from "type/type";
+import { XAxisOptions } from "type/utilMultiLineChart";
 
 type XAxisProps = XAxisOptions & {
 	innerWidth: number;

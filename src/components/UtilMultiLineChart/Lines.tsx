@@ -1,5 +1,5 @@
 import { Line, ScaleLinear, ScalePoint } from "d3";
-import { LinesOptions, SelectionOptions, Series } from "type/type";
+import { LinesOptions, SelectionOptions, Series } from "type/utilMultiLineChart";
 import { D3_DEFAULT_COLORS } from ".";
 
 type LinesProps = LinesOptions &

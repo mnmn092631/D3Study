@@ -1,5 +1,5 @@
 import { ScaleLinear, ScalePoint } from "d3";
-import { Series, SelectedItem, SelectionOptions } from "type/type";
+import { Series, SelectedItem, SelectionOptions } from "type/utilMultiLineChart";
 import Dots from "./Dots";
 import { D3_DEFAULT_COLORS } from ".";
 

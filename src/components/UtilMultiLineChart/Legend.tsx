@@ -1,6 +1,6 @@
-import { LegendOptions, Series } from "type/type";
+import { LegendOptions, Series } from "type/utilMultiLineChart";
 import { D3_DEFAULT_COLORS } from ".";
-import * as S from "style/style";
+import * as S from "style/utilMultiLineChart.style";
 
 type LegendProps = LegendOptions & { series: Series[] };
 

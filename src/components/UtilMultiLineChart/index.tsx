@@ -9,7 +9,7 @@ import {
 	Series,
 	XAxisOptions,
 	YAxisOptions,
-} from "type/type";
+} from "type/utilMultiLineChart";
 import { getLinearScale, getPointScale, findItemsByCoord } from "util/util";
 import XAxis from "./XAxis";
 import YAxis from "./YAxis";
@@ -17,7 +17,7 @@ import Lines from "./Lines";
 import Legend from "./Legend";
 import Selection from "./Selection";
 import Tooltip from "./Tooltip";
-import * as S from "style/style";
+import * as S from "style/utilMultiLineChart.style";
 
 export const D3_DEFAULT_COLORS = ["#fd7f6f", "#7eb0d5", "#b2e061", "#bd7ebe", "#ffb55a"];
 

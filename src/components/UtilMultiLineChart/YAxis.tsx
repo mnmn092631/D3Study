@@ -1,5 +1,5 @@
 import { ScaleLinear } from "d3";
-import { YAxisOptions } from "type/type";
+import { YAxisOptions } from "type/utilMultiLineChart";
 
 type YAxisProps = YAxisOptions & {
 	innerHeight: number;
