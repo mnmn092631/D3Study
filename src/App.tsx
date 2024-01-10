@@ -9,6 +9,7 @@ import Map from "pages/Map";
 import Menus from "pages/Menus";
 import Points from "pages/Points";
 import Histogram from "pages/Histogram";
+import MultiLineChart from "pages/MultiLineChart";
 
 function App() {
 	return (
@@ -17,21 +18,13 @@ function App() {
 			<Route path="/faces" element={<Faces />} />
 			<Route path="/csvdata" element={<CSVData width={960} height={500} />} />
 			<Route path="/barchart" element={<BarChart width={960} height={500} />} />
-			<Route
-				path="/scatterplot"
-				element={<ScatterPlot width={960} height={500} />}
-			/>
-			<Route
-				path="/linechart"
-				element={<LineChart width={960} height={500} />}
-			/>
+			<Route path="/scatterplot" element={<ScatterPlot width={960} height={500} />} />
+			<Route path="/linechart" element={<LineChart width={960} height={500} />} />
 			<Route path="/map" element={<Map width={960} height={500} />} />
 			<Route path="/menus" element={<Menus width={960} height={500} />} />
 			<Route path="/points" element={<Points width={960} height={500} />} />
-			<Route
-				path="/histogram"
-				element={<Histogram width={960} height={500} />}
-			/>
+			<Route path="/histogram" element={<Histogram width={960} height={500} />} />
+			<Route path="/multiLineChart" element={<MultiLineChart />} />
 		</Routes>
 	);
 }
