@@ -21,7 +21,9 @@ const Home = () => {
 			<br />
 			<Link to="/histogram">Histogram - bin, thresholds, timeMonths, sum</Link>
 			<br />
-			<Link to="/multiLineChart">Multi Line Chart Test</Link>
+			<Link to="/multiLineChart">Multi Line Chart - Util Multi Line Chart</Link>
+			<br />
+			<Link to="/bubbleChart">Bubble Chart - Util Bubble Chart</Link>
 		</div>
 	);
 };

@@ -1,4 +1,4 @@
-import { scalePoint, scaleLinear, min, max, bisector, ScalePoint, ScaleLinear } from "d3";
+import { scalePoint, scaleLinear, min, max, bisector, ScalePoint, ScaleLinear, scaleTime, scaleOrdinal } from "d3";
 import { Series } from "type/utilMultiLineChart";
 
 interface GetLinearScaleParam {
@@ -31,6 +31,22 @@ export const getPointScale = (xLabel: string[] | undefined, range: [number, numb
 	const scale = scalePoint().domain(xLabel).range(range);
 
 	return scale;
+};
+
+export const getTimeScale = (data: Date[], range: [number, number]) => {
+	if (!data.length) return null;
+	if (range[0] === 0 && range[1] === 0) return null;
+
+	const scale = scaleTime()
+		.domain([min(data)!, max(data)!])
+		.range(range)
+		.nice();
+
+	return scale;
+};
+
+export const getScaleOrdinal = (domain: string[], range: string[]) => {
+	return scaleOrdinal().domain(domain).range(range);
 };
 
 const bisect = bisector<number, number>((d) => d).center;

@@ -10,6 +10,7 @@ import Menus from "pages/Menus";
 import Points from "pages/Points";
 import Histogram from "pages/Histogram";
 import MultiLineChart from "pages/MultiLineChart";
+import BubbleChart from "pages/BubbleChart";
 
 function App() {
 	return (
@@ -25,6 +26,7 @@ function App() {
 			<Route path="/points" element={<Points width={960} height={500} />} />
 			<Route path="/histogram" element={<Histogram width={960} height={500} />} />
 			<Route path="/multiLineChart" element={<MultiLineChart />} />
+			<Route path="/bubbleChart" element={<BubbleChart />} />
 		</Routes>
 	);
 }
